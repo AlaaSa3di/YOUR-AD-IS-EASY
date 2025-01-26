@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FDB827;
+    color: #333;
+}
+
+header {
+    background: #FDB827;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* text-align: center; */
+    color: #000;
+}
+
+/* navbar style */
+.navbar {
+    width: 100%;
+    background-color: #FDB827;
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    position: sticky;
+    /* Make the navbar sticky */
+    top: 0;
+    /* Sticks to the top of the viewport */
+    z-index: 1000;
+    /* Ensures it stays above other elements */
+}
+
+/* Logo */
+.logo-image {
+    width: 6rem;
+    /* Adjust logo size */
+    height: auto;
+    border-radius: 15px 0px;
+}
+
+/* Icons Section */
+.icons-container {
+    gap: 5px;
+}
+
+.icon-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #555;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.icon-link i {
+    color: #555;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.icon-link i:hover {
+    color: #000;
+}
+
+.Login a {
+    color: #FDB827;
+    text-decoration: none;
+}
+
+.Login {
+    border-radius: 5px;
+    width: 5.3rem;
+    height: 2.5rem;
+}
+
+.Sign-up a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Sign-up {
+    border-radius: 5px;
+    width: 5.3rem;
+    height: 2.5rem;
+    background-color: #F4511E;
+
+}
+
+#logoutButton a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*end style for nav*/
+.signup-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+a, h2, h3, label, p {
+    text-decoration: none !important;
+}
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.google {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.divider {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.password-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+.toggle-password {
+    cursor: pointer;
+    color: #555;
+}
+
+.password-info {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.gender-options {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+justify-self:left;
+}
+
+.dob {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-self:left;
+    justify-content: flex-start;
+
+}
+.checkbox input[type="checkbox"] 
+ {
+    width:1rem !important;
+    margin-right: 10px; /* تقليل المسافة بين مربع الاختيار والنص */
+}
+.checkbox label {
+    white-space: nowrap; /* يمنع النص من الانتقال إلى سطر جديد */
+    overflow: hidden; /* يخفي النص الذي يتجاوز العرض */
+    text-overflow: ellipsis; /* يضيف نقاط (...) إذا تجاوز النص العرض المتاح */
+    max-width: 100%; /* يحدد عرض النص ليتناسب مع المساحة المتاحة */
+}
+
+.terms {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.terms a {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+.recaptcha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 10px;
+    background: #f5a623;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+/********start style for footer********/
+
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 1rem 1rem;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #F4511E;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-section {
+    display: flex;
+    margin-left: 1.5rem;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.footer-logo img {
+    height: 4rem;
+    width: auto;
+    margin-bottom: 0.5rem;
+    border-radius: 15px 0px;
+    margin-right: 1rem;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* .footer-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+} */
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icon {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #343a40;
+}
+
+
+.footer-contact {
+    margin: 1rem;
+    padding: 0;
+}
+
+
+.footer-contact a {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-bottom p {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-top: 1rem;
+}
+
+
+.brand-name {
+    color: #AB8E66;
+}
