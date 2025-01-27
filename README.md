@@ -21,6 +21,8 @@ Our mission is to empower brands to reach their target audience with ease, provi
 **Start today and make your advertising easy and effective with YOUR AD IS EASY!**  
 
 ## to view wireframe & mockup click here [YOUR AD IS EASY][1].
+## to view Live URL click here [YOUR AD IS EASY][2].
 
 
 [1]: https://www.figma.com/design/VgMeff38wyjvBusL1E5ZBM/YOUR-AD-IS-EASY?node-id=225-1384&t=Rl4mTlziysTadBn0-1
+[2]: https://alaasa3di.github.io/YOUR-AD-IS-EASY/
